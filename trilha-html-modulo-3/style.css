@@ -1,0 +1,78 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+header{
+    display: grid;
+    grid-template-areas: "logo-w name" ;
+    grid-template-columns: minmax(0,10rem);
+}
+.logo-w{
+    padding-left: 20px;
+
+}
+.name{
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+}
+a,ul{
+    text-decoration: none;
+    list-style: none;
+    color: green;
+}
+ul{
+    padding-left: 5px;
+}
+
+.main1{
+    text-align: center;
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "title centro links";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+
+.barra{
+    padding: 15px;
+    background-color:#f9f9fb;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;;
+}
+.title{
+    padding-left: solid 1px #cdcdcd;
+    padding-right: 15px;
+}
+
+.links{
+    padding-left: solid 1px #cdcdcd
+}
+
+.contudo{
+    padding-left: 20rem;
+    padding-right: 10rem;
+}
+
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: lightslategrey;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    border: solid 1px #cdcdcd;
+    
+}
